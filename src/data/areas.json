@@ -1,0 +1,22 @@
+[
+  { "name": "Connaught Place", "lat": 28.6315, "lng": 77.2167, "aliases": ["cp", "connaught", "rajiv chowk"] },
+  { "name": "Rajouri Garden", "lat": 28.6492, "lng": 77.1207, "aliases": ["rajouri"] },
+  { "name": "Pitampura", "lat": 28.7041, "lng": 77.1325, "aliases": ["pitam pura", "kohat enclave"] },
+  { "name": "Karol Bagh", "lat": 28.6519, "lng": 77.1909, "aliases": ["karolbagh", "karol"] },
+  { "name": "Lajpat Nagar", "lat": 28.5677, "lng": 77.2433, "aliases": ["lajpat"] },
+  { "name": "Saket", "lat": 28.5245, "lng": 77.2066, "aliases": [] },
+  { "name": "Rohini", "lat": 28.7495, "lng": 77.0565, "aliases": [] },
+  { "name": "Dwarka", "lat": 28.5921, "lng": 77.046, "aliases": [] },
+  { "name": "Janakpuri", "lat": 28.6219, "lng": 77.0878, "aliases": ["janak puri"] },
+  { "name": "Hauz Khas", "lat": 28.5494, "lng": 77.2001, "aliases": ["hauzkhas", "hkv"] },
+  { "name": "Paharganj", "lat": 28.6448, "lng": 77.2135, "aliases": ["pahar ganj"] },
+  { "name": "Mayur Vihar", "lat": 28.6092, "lng": 77.2946, "aliases": ["mayur"] },
+  { "name": "Shalimar Bagh", "lat": 28.7167, "lng": 77.1667, "aliases": ["shalimar"] },
+  { "name": "Greater Kailash", "lat": 28.5494, "lng": 77.2426, "aliases": ["gk", "gk1", "gk2", "gk-1", "gk-2"] },
+  { "name": "Vasant Kunj", "lat": 28.52, "lng": 77.155, "aliases": ["vasant"] },
+  { "name": "Kirti Nagar", "lat": 28.652, "lng": 77.1439, "aliases": ["kirti"] },
+  { "name": "Model Town", "lat": 28.7159, "lng": 77.191, "aliases": [] },
+  { "name": "Punjabi Bagh", "lat": 28.6686, "lng": 77.1314, "aliases": ["punjabi"] },
+  { "name": "Chandni Chowk", "lat": 28.6506, "lng": 77.2303, "aliases": ["chandni"] },
+  { "name": "Nehru Place", "lat": 28.5491, "lng": 77.2533, "aliases": ["nehru"] }
+]

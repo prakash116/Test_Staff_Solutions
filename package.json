@@ -1,22 +1,48 @@
 {
-  "name": "test",
+  "name": "smart-staff-request",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
     "expo": "~58.0.19",
+    "expo-constants": "~58.0.13",
+    "expo-font": "~58.0.10",
+    "expo-haptics": "~58.0.7",
+    "expo-linking": "~58.0.14",
+    "expo-router": "~58.0.26",
     "expo-status-bar": "~58.0.4",
     "react": "19.3.0",
-    "react-native": "0.88.0"
+    "react-native": "0.88.0",
+    "react-native-gesture-handler": "~3.3.0",
+    "react-native-reanimated": "4.7.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0",
+    "react-native-svg": "15.16.0",
+    "react-native-worklets": "^0.13.0"
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "jest": "~30.5.2",
+    "jest-expo": "~58.0.12",
+    "@types/jest": "30.0.0",
+    "@react-native/jest-preset": "0.88.0"
   },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest",
+    "typecheck": "tsc --noEmit",
+    "lint": "expo lint",
+    "smoke": "npx tsx scripts/smoke.ts"
   },
-  "private": true
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "testMatch": [
+      "**/__tests__/**/*.test.ts"
+    ]
+  }
 }

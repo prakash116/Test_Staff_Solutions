@@ -1,0 +1,54 @@
+[
+  {
+    "id": "b-seed-1",
+    "createdAt": "2026-10-24T10:12:00.000Z",
+    "status": "confirmed",
+    "partnerIds": ["p05"],
+    "summary": "1 Tandoor chef, Sun 25 Oct, 11 AM to 4 PM, Rajouri Garden",
+    "draft": {
+      "id": "d-seed-1",
+      "raw": "1 tandoor chef, 25th October, 11am-4pm, Rajouri Garden.",
+      "lines": [
+        {
+          "id": "l1",
+          "role": { "value": "chef", "confidence": "high" },
+          "subcategory": { "value": "tandoor_chef", "confidence": "high" },
+          "count": { "value": 1, "confidence": "high" }
+        }
+      ],
+      "date": { "value": "2026-10-25", "confidence": "high" },
+      "endDate": { "value": null, "confidence": "high" },
+      "startTime": { "value": "11:00", "confidence": "high" },
+      "endTime": { "value": "16:00", "confidence": "high" },
+      "location": { "value": "Rajouri Garden", "confidence": "high" },
+      "budgetPerDay": { "value": null, "confidence": "high" },
+      "notes": []
+    }
+  },
+  {
+    "id": "b-seed-2",
+    "createdAt": "2026-10-26T18:40:00.000Z",
+    "status": "confirmed",
+    "partnerIds": ["p18", "p19"],
+    "summary": "2 Deep cleaners, Wed 28 Oct, 7 AM to 11 AM, Pitampura",
+    "draft": {
+      "id": "d-seed-2",
+      "raw": "2 cleaners Wednesday morning Pitampura",
+      "lines": [
+        {
+          "id": "l1",
+          "role": { "value": "cleaner", "confidence": "high" },
+          "subcategory": { "value": "deep_cleaner", "confidence": "high" },
+          "count": { "value": 2, "confidence": "high" }
+        }
+      ],
+      "date": { "value": "2026-10-28", "confidence": "high" },
+      "endDate": { "value": null, "confidence": "high" },
+      "startTime": { "value": "07:00", "confidence": "high" },
+      "endTime": { "value": "11:00", "confidence": "high" },
+      "location": { "value": "Pitampura", "confidence": "high" },
+      "budgetPerDay": { "value": null, "confidence": "high" },
+      "notes": []
+    }
+  }
+]
